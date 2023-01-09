@@ -6,7 +6,4 @@ Examples
 
 
 def reverse_words(text):
-    lis = []
-    for phrase in text.split(' '):
-        lis.append(phrase[::-1])
-    return ' '.join(lis)
+    return ' '.join([phrase[::-1] for phrase in text.split(' ')])
