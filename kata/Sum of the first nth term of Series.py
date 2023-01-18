@@ -17,8 +17,3 @@ Examples:(Input --> Output)
 
 def series_sum(n):
     return f'{sum(1.0/(3 * i + 1) for i in range(n)):.2f}'
-
-
-print(series_sum(0), "0.00")
-print(series_sum(1), "1.00")
-print(series_sum(3), "1.39")
